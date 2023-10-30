@@ -1,3 +1,4 @@
+Relacionados: [Resumen de bucles](Resumen%20de%20bucles.md)
 A continuación, se presentan enunciados y soluciones para casos de uso más avanzados de bucles `while`, `do-while` y `for`:
 
 ### 1. **Uso Avanzado de Bucles**

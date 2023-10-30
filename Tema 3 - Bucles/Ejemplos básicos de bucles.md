@@ -1,3 +1,6 @@
+Relacionados: [Resumen de bucles](Resumen%20de%20bucles.md)
+
+
 A continuación se presentan varios enunciados de ejemplos junto con sus soluciones en Java, cubriendo los conceptos básicos:
 
 ### 1. **Uso Básico de Bucles**

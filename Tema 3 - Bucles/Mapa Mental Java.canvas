@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e208261479ac603b","type":"file","file":"JAVA/Bucles/Ejemplos de bucles avanzados.md","x":-680,"y":-160,"width":320,"height":400},
+		{"id":"cd920efe547c8625","type":"file","file":"JAVA/Bucles/Resumen de bucles.md","x":-210,"y":-600,"width":400,"height":400},
+		{"id":"4350f0054d7d1641","type":"file","file":"JAVA/Bucles/Ejemplos básicos de bucles.md","x":360,"y":-160,"width":340,"height":400}
+	],
+	"edges":[
+		{"id":"c9bb3cf513b016c4","fromNode":"e208261479ac603b","fromSide":"right","toNode":"cd920efe547c8625","toSide":"left"},
+		{"id":"89dc6b2de2314d77","fromNode":"4350f0054d7d1641","fromSide":"left","toNode":"cd920efe547c8625","toSide":"right"}
+	]
+}
