@@ -1,4 +1,4 @@
-La función `settings()` en Processing es una parte especial del ciclo de vida de un sketch de Processing, y tiene un propósito distinto al de la función `setup()`. Ambas son esenciales en la estructura de un programa en Processing, pero se utilizan para diferentes aspectos de la configuración inicial del sketch. Aquí te explico sus utilidades, diferencias y similitudes:
+La función `settings()` en Processing es una parte especial del ciclo de vida de un sketch de Processing, y tiene un propósito distinto al de la función `setup()`. Ambas son esenciales en la estructura de un programa en Processing, pero se utilizan para diferentes aspectos de la configuración inicial del sketch. Expliquemos sus utilidades, diferencias y similitudes:
 
 ### Función `settings()`
 
