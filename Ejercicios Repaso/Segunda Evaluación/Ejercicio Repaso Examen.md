@@ -1,6 +1,5 @@
 ### Ejercicios Unidad 5. Arrays/Tablas:
 
-Por supuesto, a continuación le proporciono 10 ejercicios de programación que abarcan el uso de arrays en Java, adecuados para sus alumnos del ciclo de grado superior de formación profesional de Desarrollo de Aplicaciones Multiplataforma.
 
 1.  **Inicialización y Recorrido**: Escriba un programa que cree un array de 10 números enteros. Inicialice el array con valores del 1 al 10 y, luego, imprima estos valores utilizando un bucle `for`.
     
