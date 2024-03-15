@@ -1,3 +1,9 @@
+
+
+## ATENCIÓN: Estos ejercicios son de repaso para los alumnos que no hayan aprobado la segunda evaluación. No se trata de hacerlos todos, solo intenta hacer los que consideres de dificultad media o alta.
+
+## Para recuperar la segunda evaluación os entregaré otra lista de tareas a realizar durante las vacaciones de semana santa.
+
 ### Ejercicios Unidad 5. Arrays/Tablas:
 
 1.  **Inicialización y Recorrido**: Escriba un programa que cree un array de 10 números enteros. Inicialice el array con valores del 1 al 10 y, luego, imprima estos valores utilizando un bucle `for`.
