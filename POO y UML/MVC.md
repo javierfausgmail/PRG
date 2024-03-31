@@ -1,7 +1,7 @@
 ---
-URL:
+URL: https://github.com/javierfausgmail/PRG/blob/main/POO%20y%20UML/MVC.md
 ---
-
+URL: https://github.com/javierfausgmail/PRG/blob/main/POO%20y%20UML/MVC.md
 ## Índice
 
 1. **Introducción a MVC** (5 minutos)
