@@ -20,15 +20,17 @@ URL: https://github.com/javierfausgmail/PRG/blob/main/POO%20y%20UML/MVC.md
    - MVC Aplicado en Aplicaciones Web (MVC 2): Diferencias con el tradicional, características.
    - MVVM (Model-View-ViewModel): Como varía del MVC, y en qué casos es preferido.
 
-4. **Ejemplo Práctico en Java** (10 minutos)
+4. **Resumen: Mapa Mental**
+
+5. **Ejemplo Práctico en Java** (10 minutos)
    - Presentación de un caso de uso simple (por ejemplo, una aplicación de consola de texto de gestión de una lista de tareas).
    - Implementación paso a paso de cada componente MVC en Java. 
 
-5. **Preguntas de Comprobación de Conocimientos** (5 minutos)
+6. **Preguntas de Comprobación de Conocimientos** (5 minutos)
    - Preguntas de opción múltiple o verdadero/falso para evaluar la comprensión de los conceptos.
    - Un ejercicio breve donde los alumnos identifiquen los componentes MVC en un fragmento de código dado.
 
-6. **Recursos Adicionales y Recomendaciones** (5 minutos)
+7. **Recursos Adicionales y Recomendaciones** (5 minutos)
    - Enlaces a tutoriales o cursos en línea para profundizar en MVC y MVVM.
    - Sugerencia de un video de YouTube que ejemplifique la implementación de MVC en Java.
 
@@ -129,6 +131,32 @@ Este diagrama refleja lo siguiente:
 
 Este flujo destaca la separación de responsabilidades dentro del patrón MVC, facilitando un desarrollo modular y fácil de mantener para aplicaciones.
 
+Mapa mental:
+
+```mermaid
+
+graph LR;
+    MVC(Modelo-Vista-Controlador) --> Modelo["Modelo"];
+    MVC --> Vista["Vista"];
+    MVC --> Controlador["Controlador"];
+
+    Modelo --> M_Datos["Gestión de Datos"];
+    Modelo --> M_Logica["Lógica de Negocio"];
+
+    Vista --> V_UI["Interfaz de Usuario"];
+    Vista --> V_Presentacion["Presentación de Datos"];
+
+    Controlador --> C_Entrada["Procesamiento de Entradas"];
+    Controlador --> C_Interaccion["Interacción Modelo-Vista"];
+
+    style MVC fill:#f9f,stroke:#333,stroke-width:2px
+    style Modelo fill:#bbf,stroke:#333,stroke-width:2px
+    style Vista fill:#fbf,stroke:#333,stroke-width:2px
+    style Controlador fill:#bfb,stroke:#333,stroke-width:2px
+
+```
+
+
 ## 3. Versiones Populares de MVC
 
 El patrón Modelo-Vista-Controlador (MVC) ha evolucionado desde su concepción inicial para adaptarse a distintas plataformas y necesidades de desarrollo. A lo largo del tiempo, han surgido variantes que mantienen la esencia del MVC original, pero con ajustes en su estructura y funcionamiento. Las versiones más populares incluyen el MVC Tradicional, el MVC Aplicado en Aplicaciones Web (a menudo referido como MVC 2), y el Model-View-ViewModel (MVVM). A continuación, se exploran estas versiones destacadas.
@@ -163,8 +191,151 @@ El patrón Modelo-Vista-Controlador (MVC) ha evolucionado desde su concepción i
 Cada una de estas variantes del MVC responde a necesidades específicas del desarrollo de software, adaptándose a distintos entornos y tecnologías para maximizar la eficiencia del diseño y la implementación de aplicaciones. La elección entre estas depende de varios factores, incluyendo el tipo de aplicación, el entorno de desarrollo, las preferencias del equipo y los requisitos específicos del proyecto.
 
 
+## 4. Resumen: Mapa mental
 
-## 4. Ejemplo Práctico en Java: Aplicación de Consola de Texto para Gestión de una Lista de Tareas
+```mermaid
+graph LR;
+
+    MVC(Modelo-Vista-Controlador)-->Conceptos_Principales("Conceptos Principales")
+
+    MVC-->Componentes("Componentes")
+
+    MVC-->Variantes("Variantes Populares")
+
+  
+
+    %% Conceptos Principales
+
+    Conceptos_Principales --> Separacion("Separación de Responsabilidades")
+
+    Conceptos_Principales --> Reutilizacion("Reutilización de Código")
+
+    Conceptos_Principales --> Modularidad("Modularidad")
+
+    Conceptos_Principales --> Mantenibilidad("Mantenibilidad")
+
+  
+
+    %% Componentes
+
+    Componentes --> Modelo("Modelo")
+
+    Componentes --> Vista("Vista")
+
+    Componentes --> Controlador("Controlador")
+
+  
+
+    %% Modelo
+
+    Modelo --> M_Datos("Gestión de Datos")
+
+    Modelo --> M_Logica("Lógica de Negocio")
+
+    Modelo --> M_Notificacion("Notificación de Cambios")
+
+  
+
+    %% Vista
+
+    Vista --> V_UI("Interfaz de Usuario")
+
+    Vista --> V_Actualizacion("Actualización Dinámica")
+
+  
+
+    %% Controlador
+
+    Controlador --> C_ManejoEntrada("Manejo de Entradas del Usuario")
+
+    Controlador --> C_Comunicacion("Comunicación Modelo-Vista")
+
+  
+
+    %% Variantes Populares
+
+    Variantes --> MVC_Tradicional("MVC Tradicional")
+
+    Variantes --> MVC_Web("MVC en Aplicaciones Web")
+
+    Variantes --> MVVM("Model-View-ViewModel (MVVM)")
+
+  
+
+    %% MVC Tradicional
+
+    MVC_Tradicional --> T_Sincrono("Flujo de Trabajo Sincrónico")
+
+    MVC_Tradicional --> T_AplicacionesEscritorio("Ideal para Aplicaciones de Escritorio")
+
+  
+
+    %% MVC en Aplicaciones Web
+
+    MVC_Web --> W_Acciones("Controladores basados en Acciones")
+
+    MVC_Web --> W_AplicacionesWeb("Especializado para Web")
+
+  
+
+    %% MVVM
+
+    MVVM --> V_Binding("Binding Automático")
+
+    MVVM --> V_UI_Ricas("UIs Ricas y Dinámicas")
+
+  
+
+%% Estilos y Colores
+
+    style MVC fill:#f9f,stroke:#333,stroke-width:2px
+
+    style Conceptos_Principales fill:#bbf,stroke:#333,stroke-width:2px
+
+    style Componentes fill:#fbf,stroke:#333,stroke-width:2px
+
+    style Variantes fill:#bfb,stroke:#333,stroke-width:2px
+
+    style Modelo fill:#ff9,stroke:#333,stroke-width:2px
+
+    style Vista fill:#f99,stroke:#333,stroke-width:2px
+
+    style Controlador fill:#9f9,stroke:#333,stroke-width:2px
+
+    style MVC_Tradicional fill:#f9f,stroke:#333,stroke-width:2px
+
+    style MVC_Web fill:#9ff,stroke:#333,stroke-width:2px
+
+    style MVVM fill:#99f,stroke:#333,stroke-width:2px
+
+    style M_Datos fill:#ff9,stroke:#333,stroke-width:1px
+
+    style M_Logica fill:#ff9,stroke:#333,stroke-width:1px
+
+    style M_Notificacion fill:#ff9,stroke:#333,stroke-width:1px
+
+    style V_UI fill:#f99,stroke:#333,stroke-width:1px
+
+    style V_Actualizacion fill:#f99,stroke:#333,stroke-width:1px
+
+    style C_ManejoEntrada fill:#9f9,stroke:#333,stroke-width:1px
+
+    style C_Comunicacion fill:#9f9,stroke:#333,stroke-width:1px
+
+    style T_Sincrono fill:#f9f,stroke:#333,stroke-width:1px
+
+    style T_AplicacionesEscritorio fill:#f9f,stroke:#333,stroke-width:1px
+
+    style W_Acciones fill:#9ff,stroke:#333,stroke-width:1px
+
+    style W_AplicacionesWeb fill:#9ff,stroke:#333,stroke-width:1px
+
+    style V_Binding fill:#99f,stroke:#333,stroke-width:1px
+
+    style V_UI_Ricas fill:#99f,stroke:#333,stroke-width:1px
+```
+
+## 5. Ejemplo Práctico en Java: Aplicación de Consola de Texto para Gestión de una Lista de Tareas
 
 En este ejemplo, desarrollaremos una aplicación de consola de texto simple en Java que permite a los usuarios gestionar una lista de tareas. El usuario podrá añadir, eliminar y ver tareas. Implementaremos este ejemplo utilizando el patrón de diseño MVC.
 
@@ -321,7 +492,7 @@ public class Main {
 
 Este código establece la conexión entre los componentes MVC y pone en marcha el ciclo de interacción de la aplicación. A través de este ejemplo, los estudiantes pueden observar cómo el patrón MVC facilita la organización del código, promoviendo una estructura clara y modular que separa la lógica de negocio de la interfaz de usuario y la lógica de control.
 
-## 5. Preguntas de Comprobación de Conocimientos
+## 6. Preguntas de Comprobación de Conocimientos
 
 Para evaluar la comprensión de los conceptos del patrón Modelo-Vista-Controlador (MVC) presentados en esta lección, se proponen las siguientes preguntas de opción múltiple y de verdadero/falso, junto con un ejercicio breve.
 
@@ -443,7 +614,7 @@ public class LibroController {
 
 
 
-## 6. Recursos Adicionales y Recomendaciones
+## 7. Recursos Adicionales y Recomendaciones
 
 Para aquellos interesados en profundizar sus conocimientos sobre los patrones de diseño MVC y MVVM, así como mejorar sus habilidades en la implementación de estos patrones en Java y otras tecnologías, aquí se proporcionan recursos y recomendaciones cuidadosamente seleccionados.
 
