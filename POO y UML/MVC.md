@@ -131,32 +131,6 @@ Este diagrama refleja lo siguiente:
 
 Este flujo destaca la separación de responsabilidades dentro del patrón MVC, facilitando un desarrollo modular y fácil de mantener para aplicaciones.
 
-Mapa mental:
-
-```mermaid
-
-graph LR;
-    MVC(Modelo-Vista-Controlador) --> Modelo["Modelo"];
-    MVC --> Vista["Vista"];
-    MVC --> Controlador["Controlador"];
-
-    Modelo --> M_Datos["Gestión de Datos"];
-    Modelo --> M_Logica["Lógica de Negocio"];
-
-    Vista --> V_UI["Interfaz de Usuario"];
-    Vista --> V_Presentacion["Presentación de Datos"];
-
-    Controlador --> C_Entrada["Procesamiento de Entradas"];
-    Controlador --> C_Interaccion["Interacción Modelo-Vista"];
-
-    style MVC fill:#f9f,stroke:#333,stroke-width:2px
-    style Modelo fill:#bbf,stroke:#333,stroke-width:2px
-    style Vista fill:#fbf,stroke:#333,stroke-width:2px
-    style Controlador fill:#bfb,stroke:#333,stroke-width:2px
-
-```
-
-
 ## 3. Versiones Populares de MVC
 
 El patrón Modelo-Vista-Controlador (MVC) ha evolucionado desde su concepción inicial para adaptarse a distintas plataformas y necesidades de desarrollo. A lo largo del tiempo, han surgido variantes que mantienen la esencia del MVC original, pero con ajustes en su estructura y funcionamiento. Las versiones más populares incluyen el MVC Tradicional, el MVC Aplicado en Aplicaciones Web (a menudo referido como MVC 2), y el Model-View-ViewModel (MVVM). A continuación, se exploran estas versiones destacadas.
