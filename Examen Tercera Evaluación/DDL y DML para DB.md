@@ -43,8 +43,6 @@ CREATE TABLE Compatibilidad (
 
 
 
-A continuación, se presenta un script DML (Data Manipulation Language) para insertar datos de prueba en las tablas de la base de datos, asegurando que todas las tablas contengan información y que existan registros relacionados entre ellas.
-
 ### Script DML para Insertar Datos de Prueba
 
 ```sql
